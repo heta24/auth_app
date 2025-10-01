@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose 2FA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h2>Choose 2FA Method</h2>
+    <a href="{{ url_for('otp_verify') }}"><button>Email OTP</button></a>
+</div>
+</body>
+</html>
